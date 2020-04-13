@@ -1,14 +1,19 @@
 {
   "name": "vue-chocolat",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Chocolat extension wrapper for VueJs",
   "main": "src/index.js",
   "scripts": {
     "build": "rollup",
     "test": "jest"
   },
-  "keywords": [],
+  "keywords": [
+    "vuejs",
+    "chocolat"
+  ],
   "author": "Eliamar Tani<eliamartani@gmail.com>",
+  "repository": "https://github.com/eliamartani/vue-chocolat",
+  "license": "MIT",
   "dependencies": {
     "chocolat": "^1.0.0"
   },
