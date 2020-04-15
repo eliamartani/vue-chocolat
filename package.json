@@ -12,7 +12,14 @@
     "chocolat"
   ],
   "author": "Eliamar Tani<eliamartani@gmail.com>",
-  "repository": "https://github.com/eliamartani/vue-chocolat",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eliamartani/vue-chocolat.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eliamartani/vue-chocolat/issues"
+  },
+  "homepage": "https://github.com/eliamartani/vue-chocolat#readme",
   "license": "MIT",
   "dependencies": {
     "chocolat": "^1.0.0"
