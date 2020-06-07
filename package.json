@@ -22,7 +22,7 @@
   "homepage": "https://github.com/eliamartani/vue-chocolat#readme",
   "license": "MIT",
   "dependencies": {
-    "chocolat": "^1.0.0"
+    "chocolat": "^1.0.1"
   },
   "devDependencies": {}
 }
