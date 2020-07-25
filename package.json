@@ -1,11 +1,11 @@
 {
   "name": "@eliamartani/vue-chocolat",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "description": "Chocolat extension wrapper for VueJs",
   "main": "index.js",
   "scripts": {
-    "build": "rollup",
-    "test": "jest"
+    "build": "vuepress build docs",
+    "start": "vuepress dev docs"
   },
   "keywords": [
     "vuejs",
@@ -27,5 +27,7 @@
   "dependencies": {
     "chocolat": "^1.0.3"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "vuepress": "^1.5.2"
+  }
 }

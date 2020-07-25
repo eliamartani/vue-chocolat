@@ -1,20 +1,18 @@
-# vue-chocolat
+---
+home: true
+footer: Made by Eliamar Tani with ❤️
+---
 
-VueJs component to work with `Chocolat` 🐴
+## Table of Contents <!-- omit in toc -->
 
-## Table of Contents
-
-- [vue-chocolat](#vue-chocolat)
-  - [Table of Contents](#table-of-contents)
-  - [Install](#install)
-    - [In package.json](#in-packagejson)
-    - [In Component](#in-component)
-  - [Props](#props)
-  - [API](#api)
-    - [Todo list](#todo-list)
-  - [Examples](#examples)
-  - [Reference](#reference)
-  - [License](#license)
+- [Install](#install)
+  - [In package.json](#in-packagejson)
+  - [In Component](#in-component)
+- [Props](#props)
+- [API](#api)
+- [Examples](#examples)
+- [Reference](#reference)
+- [License](#license)
 
 ## Install
 
@@ -101,22 +99,14 @@ someMethod() {
 }
 ```
 
-### Todo list
-
-- [ ] Improve API interface
-
 ## Examples
 
-Examples can be found here:
-
-- [Examples](https://eliamartani.github.io/vue-chocolat/examples)
-
-Live examples can be found at Chocolat's page.
+Examples can be found [here](/examples/).
 
 ## Reference
 
-- http://chocolat.insipi.de/
+- [http://chocolat.insipi.de/](http://chocolat.insipi.de/)
 
 ## License
 
-[MIT](LICENSE)
+MIT
