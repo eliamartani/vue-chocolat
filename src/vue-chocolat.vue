@@ -1,9 +1,15 @@
+<template>
+  <div class="vue-chocolat">
+    <slot />
+  </div>
+</template>
+
+<script>
 import Chocolat from 'chocolat'
 import 'chocolat/dist/css/chocolat.css'
 
-const component = {
+export default {
   name: 'vue-chocolat',
-  template: '<div class="vue-chocolat"><slot /></div>',
   props: {
     items: {
       default: null,
@@ -49,5 +55,4 @@ const component = {
     }
   }
 }
-
-export default component
+</script>
