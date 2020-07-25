@@ -1,6 +1,7 @@
 const { description, homepage } = require('../../package.json')
 
 module.exports = {
+  base: '/vue-chocolat/',
   title: 'vue-chocolat',
   description: `${description} 🐴`,
   themeConfig: {
