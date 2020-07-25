@@ -1,6 +1,6 @@
 {
   "name": "vue-chocolat",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Chocolat extension wrapper for VueJs",
   "main": "src/index.js",
   "scripts": {
