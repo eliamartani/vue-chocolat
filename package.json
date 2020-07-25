@@ -1,8 +1,8 @@
 {
-  "name": "vue-chocolat",
-  "version": "1.0.3",
+  "name": "@eliamartani/vue-chocolat",
+  "version": "1.0.4",
   "description": "Chocolat extension wrapper for VueJs",
-  "main": "src/index.js",
+  "main": "index.js",
   "scripts": {
     "build": "rollup",
     "test": "jest"
@@ -20,6 +20,9 @@
     "url": "https://github.com/eliamartani/vue-chocolat/issues"
   },
   "homepage": "https://github.com/eliamartani/vue-chocolat#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "license": "MIT",
   "dependencies": {
     "chocolat": "^1.0.3"
