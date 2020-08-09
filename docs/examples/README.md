@@ -1,4 +1,4 @@
-# Exampples <!-- omit in toc -->
+# Examples <!-- omit in toc -->
 
 - [Zero configuration](#zero-configuration)
 - [Adding selectors](#adding-selectors)
