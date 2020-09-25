@@ -28,6 +28,6 @@
     "chocolat": "^1.0.3"
   },
   "devDependencies": {
-    "vuepress": "^1.5.4"
+    "vuepress": "^1.6.0"
   }
 }
