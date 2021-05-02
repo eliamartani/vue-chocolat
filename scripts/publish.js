@@ -50,9 +50,12 @@ function updateVersion(pkg) {
 
         saveFile(pkg)
 
+        exec('npm install')
         exec('git add package.json')
+        exec('git add package-lock.json')
         exec(`git commit -m "chore: Bump application version to ${version}"`)
-        exec('git push')
+        exec(`git tag v${version}"`)
+        exec('git push --tags')
 
         proceed = true
       }
