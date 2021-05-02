@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "vuepress build docs",
+    "publish": "node ./scripts/publish.js",
     "start": "vuepress dev docs"
   },
   "keywords": [
